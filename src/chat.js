@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import CryptoJS from "crypto-js";
 import "./Chat.css";
 
-const socket = io("http://localhost:4000");
+const socket = io();
 
 // Demo secret key (keep same as before)
 const SECRET_KEY = "my_super_secret_key_123";
